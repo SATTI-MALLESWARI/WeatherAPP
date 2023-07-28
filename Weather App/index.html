@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="Weather.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="card"> <!-- parent div container -->
+        <div class="search"> <!-- search bar container -->
+            <input type="text" placeholder="enter city name" spellcheck="false"> <!-- input field for user to enter city name -->
+            <button><img src="search.png" ></button> <!-- button for user to submit city name -->
+        </div>
+        <div class="error"> <!-- error message container -->
+            <p>Invalid city name</p>
+        </div>
+        <div class="weather"> <!-- container for displaying weather information -->
+            <img src="rain.png" class="weather-icon"> <!-- image for weather icon -->
+            <h1 class="temp">22°c</h1>
+            <h2 class="city">New York</h2>
+            <div class="details"> <!-- container for displaying additional weather information -->
+                <div class="col">  <!-- container for humidity information -->
+                    <img src="humidity.png">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">  <!-- container for wind speed information -->
+                    <img src="wind.png">
+                    <div>
+                        <p class="wind">15 km/h</p>
+                        <p>Wind Speed</p>
+            </div>
+        </div>
+        <div class="col">  <!-- container for wind speed information -->
+            <img src="Feels like.png">
+            <div>
+                <p class="realfeel">33°c</p>
+                <p>Feels like</p>
+    </div>
+</div>
+<div class="col">  <!-- container for wind speed information -->
+    <img src="Pressure.png">
+    <div>
+        <p class="pressure">15hPa</p>
+        <p>pressure</p>
+</div>
+</div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
