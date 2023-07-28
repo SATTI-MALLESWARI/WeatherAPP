@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(Background.gif);
+    background-image: url(Weather App/Background.gif);
     background-repeat: no-repeat;
     background-size: cover;
 }
