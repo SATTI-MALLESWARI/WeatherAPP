@@ -22,16 +22,16 @@ const apiKey = "e6d03ce5805ff0cbc7cca74132801401";  // OpenWeatherMap API key
         weatherIcon.src = "clouds.png";
     }
     else if(data.weather[0].main == "Clear") {
-        weatherIcon.src = "Weather Appclear.png";
+        weatherIcon.src = "Weather App/clear.png";
     }
     else if(data.weather[0].main == "Rain") {
-        weatherIcon.src = "Weather Apprain.png";
+        weatherIcon.src = "Weather App/rain.png";
     }
     else if(data.weather[0].main == "Drizzle") {
-        weatherIcon.src = "Weather Appdrizzle.png";
+        weatherIcon.src = "Weather App/drizzle.png";
     }
     else if(data.weather[0].main == "Mist") {
-        weatherIcon.src = "Weather Appmist.png";
+        weatherIcon.src = "Weather App/mist.png";
     }
     document.querySelector(".weather").style.display = "block";
     document.querySelector(".error").style.display = "none";
