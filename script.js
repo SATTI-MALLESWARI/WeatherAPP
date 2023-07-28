@@ -19,7 +19,7 @@ const apiKey = "e6d03ce5805ff0cbc7cca74132801401";  // OpenWeatherMap API key
         document.querySelector(".realfeel").innerHTML = Math.round(data.main.feels_like) + "°c";
         document.querySelector(".pressure").innerHTML = data.main.pressure + " hPa";
     if(data.weather[0].main == "Clouds"){
-        weatherIcon.src = "clouds.png";
+        weatherIcon.src = "Weather App/clouds.png";
     }
     else if(data.weather[0].main == "Clear") {
         weatherIcon.src = "Weather App/clear.png";
